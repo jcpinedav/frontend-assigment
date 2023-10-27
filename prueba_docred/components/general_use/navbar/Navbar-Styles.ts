@@ -13,7 +13,7 @@ export const navbarStyles = createUseStyles({
     width: "100vw",
     background: "#000000",
   },
-  imgLogo: {
+  imgEEogo: {
     height: "30px",
     width: "120px",
   },

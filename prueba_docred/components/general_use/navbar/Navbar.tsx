@@ -15,7 +15,7 @@ const Navbar = ({}) => {
     <div className={styles.mainNavbar}>
       <div className={styles.internalNavbar}>
         <img
-          className={styles.imgLogo}
+          className={styles.imgEEogo}
           src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/320px-Google_2015_logo.svg.png"
           alt=""
         />
