@@ -1,5 +1,5 @@
 import { createUseStyles } from "react-jss";
-
+//Estilos usados para el paginado
 export const paginatedStyles = createUseStyles({
   mainContainerButtom: {
     marginBottom: "100px",

@@ -1,7 +1,7 @@
 import { createUseStyles } from "react-jss";
 import React from "react";
 import { breakpoints } from "@/styles/breakpoints";
-
+//Estilos del encabezado
 export const navbarStyles = createUseStyles({
   mainNavbar: {
     position: "fixed",

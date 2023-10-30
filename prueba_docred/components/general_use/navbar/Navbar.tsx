@@ -13,6 +13,7 @@ import { useState } from "react";
 
 const Navbar = ({}) => {
   const styles = navbarStyles();
+  //Se define un estado para cambiar el valor de menuState, el cual cuando dea true se tomaran los estilos containerButtomsResponsiveNavbarShow, para hacer mas amigable la interfaz en dispositivos móviles
   const [menuState, setMenuState] = useState(false);
 
   const menufunction = () => {
@@ -24,7 +25,7 @@ const Navbar = ({}) => {
       <div className={styles.internalNavbar}>
         <img
           className={styles.imgEEogo}
-          src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/320px-Google_2015_logo.svg.png"
+          src="https://res.cloudinary.com/docred/image/upload/v1689282496/logo_eccw7n.webp"
           alt=""
         />
         <div className={styles.containerButtomsNavbar}>
@@ -32,6 +33,7 @@ const Navbar = ({}) => {
             icon={<MedicalInformationIcon />}
             title="Contenido médico"
           />
+          {/* uso de iconos de Material UI */}
           <ButtomNavbar icon={<SchoolIcon />} title="DocRed Académico" />
           <ButtomNavbar icon={<DateRangeIcon />} title="Eventos" />
           <ButtomNavbar icon={<ApartmentIcon />} title="Canales" />

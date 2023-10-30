@@ -3,7 +3,7 @@ import FacebookOutlinedIcon from "@mui/icons-material/FacebookOutlined";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
-
+//Este componente contiene todas todas propiedades mostradas en el pie de página
 const Footer = ({}) => {
   const styles = footerStyles();
   return (

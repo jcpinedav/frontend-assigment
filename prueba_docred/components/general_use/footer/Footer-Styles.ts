@@ -1,6 +1,6 @@
 import { breakpoints } from "@/styles/breakpoints";
 import { createUseStyles } from "react-jss";
-
+//Estilos usados en el pie de página
 export const footerStyles = createUseStyles({
   mainFooterStyles: {
     position: "fixed",
@@ -36,6 +36,7 @@ export const footerStyles = createUseStyles({
     gap: "20px",
   },
   textFooterStyles: {
+    alignItems: "center",
     display: "flex",
     gap: "20px",
   },

@@ -1,5 +1,5 @@
 import { createUseStyles } from "react-jss";
-
+//Estilos usados en los botones del encabezado
 export const buttomNavbarStyles = createUseStyles({
   mainButtomNavbar: {
     gap: "5px",
