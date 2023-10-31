@@ -13,3 +13,6 @@ npm i
 Correr el servidor:
 
 npm run dev
+
+en la ruta: http://localhost:3000/home se enceuntra el primer punto
+en la ruta: http://localhost:3000/details se encuentra el segundo punto
